@@ -45,3 +45,4 @@ gem 'pry-rails'
 gem 'guard'
 gem 'guard-livereload'
 gem 'autoprefixer-rails'
+gem 'rails_12factor', group: :production
