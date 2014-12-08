@@ -1,14 +1,50 @@
+html, body, .ember-application, .ember-view, .matches {
+  height: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body {
   font-family: 'Avenir-Roman', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.matches {
+  display: flex;
+  justify-content: space-around;
 }
 
 .sidebar {
   background-color: rgb(232, 232, 232);
   color: rgb(151, 151, 151);
   width: 56px;
+  overflow-y: scroll;
+  display: flex;
+  display: column nowrap;
+  justify-content: center;
+}
+
+.full-name {
+  display: none;
+}
+
+.photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin: 2px 0;
+  overflow-y: scroll;
+}
+
+.messages {
+  width: 304px;
+  padding: 17px;
+  overflow-y: scroll;
 }
 
 ul {
+  padding-left: 0;
   list-style-type: none;
 }
 
@@ -16,12 +52,3 @@ li {
   font-size: 18px;
 }
 
-.full-name {
-  display: none;
-}
-
-img {
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-}
