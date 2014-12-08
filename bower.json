@@ -1,0 +1,26 @@
+{
+  "name": "hinge-plus",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    "Jason Benn <jasoncbenn@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "latest",
+    "velocity": "latest"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}

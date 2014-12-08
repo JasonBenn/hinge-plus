@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Avenir";
+  src: font-url("Avenir-Light.eot");
+  src: local("☺"),
+    font-url("Avenir-Light.woff") format("woff"),
+    font-url("Avenir-Light.otf") format("opentype"),
+    font-url("Avenir-Light.svg#Avenir-Light") format("svg"),
+    font-url("Avenir-Light.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir-Light";
+  src: font-url("Avenir-Light.eot");
+  src: local("☺"),
+    font-url("Avenir-Light.woff") format("woff"),
+    font-url("Avenir-Light.otf") format("opentype"),
+    font-url("Avenir-Light.svg#Avenir-Light") format("svg"),
+    font-url("Avenir-Light.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir-Book";
+  src: font-url("Avenir-Book.eot");
+  src: local("☺"),
+    font-url("Avenir-Book.woff") format("woff"),
+    font-url("Avenir-Book.otf") format("opentype"),
+    font-url("Avenir-Book.svg#Avenir-Book") format("svg"),
+    font-url("Avenir-Book.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: font-url("Avenir-Roman.eot");
+  src: local("☺"),
+    font-url("Avenir-Roman.woff") format("woff"),
+    font-url("Avenir-Roman.otf") format("opentype"),
+    font-url("Avenir-Roman.svg#Avenir-Roman") format("svg"),
+    font-url("Avenir-Roman.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir-Roman";
+  src: font-url("Avenir-Roman.eot");
+  src: local("☺"),
+    font-url("Avenir-Roman.woff") format("woff"),
+    font-url("Avenir-Roman.otf") format("opentype"),
+    font-url("Avenir-Roman.svg#Avenir-Roman") format("svg"),
+    font-url("Avenir-Roman.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Roman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: font-url("Avenir-Medium.eot");
+  src: local("☺"),
+    font-url("Avenir-Medium.woff") format("woff"),
+    font-url("Avenir-Medium.otf") format("opentype"),
+    font-url("Avenir-Medium.svg#Avenir-Medium") format("svg"),
+    font-url("Avenir-Medium.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: font-url("Avenir-Heavy.eot");
+  src: local("☺"),
+    font-url("Avenir-Heavy.woff") format("woff"),
+    font-url("Avenir-Heavy.otf") format("opentype"),
+    font-url("Avenir-Heavy.svg#Avenir-Heavy") format("svg"),
+    font-url("Avenir-Heavy.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Heavy.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: font-url("Avenir-Heavy.eot");
+  src: local("☺"),
+    font-url("Avenir-Heavy.woff") format("woff"),
+    font-url("Avenir-Heavy.otf") format("opentype"),
+    font-url("Avenir-Heavy.svg#Avenir-Heavy") format("svg"),
+    font-url("Avenir-Heavy.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir-Black";
+  src: font-url("Avenir-Black.eot");
+  src: local("☺"),
+    font-url("Avenir-Black.woff") format("woff"),
+    font-url("Avenir-Black.otf") format("opentype"),
+    font-url("Avenir-Black.svg#Avenir-Black") format("svg"),
+    font-url("Avenir-Black.eot?#iefix") format("embedded-opentype"),
+    font-url("Avenir-Black.ttf") format("truetype");
+}
+/*// .avenir-light {
+//   font-family: 'Avenir-Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+//   font-weight: normal;
+// }
+
+// .avenir-book {
+//   font-family: 'Avenir-Book', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+//   font-weight: normal;
+// }
+
+// .avenir-roman {
+//   font-family: 'Avenir-Roman', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+//   font-weight: normal;
+// }
+
+// .avenir-medium {
+//   font-family: 'Avenir-Medium', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+//   font-weight: normal;
+// }
+
+// .avenir-heavy {
+//   font-family: 'Avenir-Heavy', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+//   font-weight: normal;
+// }
+
+// .avenir-black {
+//   font-family: 'Avenir-Black', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+//   font-weight: normal;
+// }
+*/

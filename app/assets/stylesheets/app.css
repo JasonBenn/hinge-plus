@@ -1,0 +1,27 @@
+body {
+  font-family: 'Avenir-Roman', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.sidebar {
+  background-color: rgb(232, 232, 232);
+  color: rgb(151, 151, 151);
+  width: 56px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 18px;
+}
+
+.full-name {
+  display: none;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}

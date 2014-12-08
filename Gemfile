@@ -42,3 +42,5 @@ gem 'emblem-rails'
 
 gem 'ffaker'
 gem 'pry-rails'
+gem 'guard'
+gem 'guard-livereload'
