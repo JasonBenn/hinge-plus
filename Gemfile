@@ -39,3 +39,6 @@ gem 'spring',        group: :development
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
+
+gem 'ffaker'
+gem 'pry-rails'
