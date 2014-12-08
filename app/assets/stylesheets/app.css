@@ -2,6 +2,10 @@ html, body, .ember-application, .ember-view, .matches {
   height: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -13,6 +17,12 @@ body {
 .matches {
   display: flex;
   justify-content: space-around;
+}
+
+.main {
+  width: 304px;
+  padding: 17px;
+  height: 100%;
 }
 
 .sidebar {
@@ -37,10 +47,25 @@ body {
   overflow-y: scroll;
 }
 
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+
 .messages {
-  width: 304px;
-  padding: 17px;
+  position: absolute;
+  margin-top: 62px;
+  top: 0;
+  bottom: 0;
   overflow-y: scroll;
+}
+
+.sent {
+  padding-left: 40px;
+  color: rgb(151, 151, 151);
 }
 
 ul {

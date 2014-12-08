@@ -1,15 +1,13 @@
-.messages
+.main
   h2 = fullName
-
-  hr
-
-  p No you haven't!! Awe
-  p I wanted to get you a real conch from the bottom of the Caribbean from when we went snorkeling, but hte guide wouldn't let us take any home!
-  p :O
-  p That would have been super cool. How many were you trying to take? I imagine you with an armload of conch shells like mouth agape when they tell you that you can't bring them. And then crying.
-  p Crying with relief that I didn't have to figure out how to peacefully evict all those giant crustaceans, maybe.
-  p No you haven't!! Awe
-  p I wanted to get you a real conch from the bottom of the Caribbean from when we went snorkeling, but hte guide wouldn't let us take any home!
-  p :O
-  p That would have been super cool. How many were you trying to take? I imagine you with an armload of conch shells like mouth agape when they tell you that you can't bring them. And then crying.
-  p Crying with relief that I didn't have to figure out how to peacefully evict all those giant crustaceans, maybe.
+  .messages
+    p No you haven't!! Awe
+    p.sent I wanted to get you a real conch from the bottom of the Caribbean from when we went snorkeling, but hte guide wouldn't let us take any home!
+    p :O
+    p That would have been super cool. How many were you trying to take? I imagine you with an armload of conch shells like mouth agape when they tell you that you can't bring them. And then crying.
+    p.sent Crying with relief that I didn't have to figure out how to peacefully evict all those giant crustaceans, maybe.
+    p No you haven't!! Awe
+    p.sent I wanted to get you a real conch from the bottom of the Caribbean from when we went snorkeling, but hte guide wouldn't let us take any home!
+    p :O
+    p.sent That would have been super cool. How many were you trying to take? I imagine you with an armload of conch shells like mouth agape when they tell you that you can't bring them. And then crying.
+    p Crying with relief that I didn't have to figure out how to peacefully evict all those giant crustaceans, maybe.
