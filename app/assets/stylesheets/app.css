@@ -1,7 +1,3 @@
-html, body, .ember-application, .ember-view, .matches {
-  height: 100%;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -10,25 +6,31 @@ html, body, .ember-application, .ember-view, .matches {
     display: none; 
 }
 
+html, body, .ember-application, .ember-view, .matches {
+  height: 100%;
+  font-size: 10px;
+}
+
 body {
   font-family: 'Avenir-Roman', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  
 }
 
 .matches {
   display: flex;
-  justify-content: space-around;
 }
 
 .main {
-  width: 304px;
-  padding: 17px;
+  width: 91.2rem;
+  padding: 5rem;
   height: 100%;
+  font-size: 5.4rem;
 }
 
 .sidebar {
   background-color: rgb(232, 232, 232);
   color: rgb(151, 151, 151);
-  width: 56px;
+  width: 16.8rem;
   overflow-y: scroll;
   display: flex;
   display: column nowrap;
@@ -40,10 +42,10 @@ body {
 }
 
 .photo {
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  margin: 2px 0;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 12rem;
+  margin: 1rem 0;
   overflow-y: scroll;
 }
 
