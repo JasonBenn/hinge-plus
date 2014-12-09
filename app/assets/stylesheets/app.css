@@ -52,14 +52,14 @@ body {
 h2 {
   padding: 0;
   margin: 0;
-  font-size: 20px;
-  padding-bottom: 18px;
-  border-bottom: 1px solid rgb(232, 232, 232);
+  font-size: 6rem;
+  padding-bottom: 5rem;
+  border-bottom: .5rem solid rgb(232, 232, 232);
 }
 
 .messages {
   position: absolute;
-  margin-top: 62px;
+  margin-top: 18rem;
   top: 0;
   bottom: 0;
   overflow-y: scroll;
