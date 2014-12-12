@@ -1,0 +1,141 @@
+::-webkit-scrollbar { 
+  display: none;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+    line-height: 1.6em;
+  }
+}
+
+@media (min-width: 480px) {
+  html {
+    font-size: 14px;
+    line-height: 1.7em;
+  }
+}
+
+html, body {
+  height: 100vh;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.ember-application, .matches {
+
+}
+
+body {
+  font-family: 'Avenir-Roman', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  background: url(<%= asset_path 'background.png' %>);
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.matches {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+
+  header, footer {
+    z-index: 1;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid black;
+    height: 3em;
+    position: absolute;
+    width: 100%;
+    left: 0; 
+  }
+
+  $photoWidth: 2.7rem;
+
+  header { 
+    top: 0; 
+    img {
+      width: $photoWidth;
+      height: $photoWidth;
+    }
+  }
+  footer { 
+    width: 100%;
+    bottom: 0;
+    input {
+      width: 100%;
+      height: 3em;
+    }
+  }
+
+  .main, .sidebar {
+    height: 100vh;
+    min-height: 100vh;
+    overflow-y: scroll;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  $sidebarSidePadding: .5rem;
+  $sidebarWidth: $photoWidth + $sidebarSidePadding * 2;
+
+  .main {
+    left: $sidebarWidth;
+  }
+
+  .sidebar {
+    padding-left: $sidebarSidePadding;
+    padding-right: $sidebarSidePadding;
+
+    .photo {
+      width: $photoWidth;
+      height: $photoWidth;
+    }
+  }
+}
+
+.main {
+  padding: 1.1rem;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.sidebar {
+  background-color: rgb(232, 232, 232);
+  color: rgb(151, 151, 151);
+  overflow-y: scroll;
+  display: flex;
+  display: column nowrap;
+  justify-content: center;
+
+  .photo {
+    border-radius: 2.7rem;
+    margin: .45rem 0;
+    overflow-y: scroll;
+  }
+
+  .full-name {
+    display: none;
+  }
+
+  h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.3rem;
+    padding-bottom: 1.1rem;
+    border-bottom: .1rem solid rgb(232, 232, 232);
+  }
+  
+}
+
+.messages {
+  overflow-y: scroll;
+  
+  .sent {
+    padding-left: .5em;
+    color: rgb(151, 151, 151);
+  }
+}
