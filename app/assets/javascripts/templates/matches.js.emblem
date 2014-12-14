@@ -2,14 +2,15 @@
   .sidebar
     header
       link-to 'matches' tagName='li'
-        img src='/hinge-logo.png'
+        img{{action 'getToRate'}} src='/hinge-logo.png'
     ul
       each
         link-to 'match' id tagName='li'
           img.photo src='https://scontent-a.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/p130x130/76566_10101101972180813_952153871_n.jpg?oh=f1933030b6dbdaa84351831b2b50a27f&oe=551834DE'
           .full-name = fullName
     footer
-      | LOGOS
+      p Login
+      / p{{action 'checkLogin'}} Check Status
   .main
     header
       h2 = fullName

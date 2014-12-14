@@ -16,6 +16,8 @@
 //= require handlebars
 //= require ember
 //= require ember-data
+//= require pubnub/web/pubnub.min
+//= require underscore/underscore-min
 //= require_self
 //= require ./app
 

@@ -1,0 +1,2 @@
+module HingeHelper
+end
