@@ -13,7 +13,9 @@
   "private": true,
   "dependencies": {
     "normalize.css": "latest",
-    "velocity": "latest"
+    "velocity": "latest",
+    "pubnub": "~3.7.2",
+    "underscore": "~1.7.0"
   },
   "ignore": [
     "**/.*",
