@@ -42,7 +42,11 @@ gem 'emblem-rails'
 
 gem 'ffaker'
 gem 'pry-rails'
+gem 'pry-remote'
 gem 'guard'
 gem 'guard-livereload'
 gem 'autoprefixer-rails'
 gem 'rails_12factor', group: :production
+gem 'httparty'
+gem 'omniauth-facebook'
+gem 'figaro'
