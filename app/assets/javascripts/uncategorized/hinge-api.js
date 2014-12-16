@@ -16,18 +16,18 @@ function getChatHistory(channelID) {
 }
 // getChatHistory('OTJkZjE4MDEyZTg3YWI1YjhiNmM5NzNhZWExZmZhY2I4NjBlYTUyODA2OTY0Mjg3YjkwMDVmYmU3YmU4ODFkMw==')
 
-function getPotentialMatches() {
-  return $.get('/api/v1/to-rate', { myFBID: App.Session.myFBID, token: App.Session.token });
-}
-// getPotentialMatches().done(log)
+// function getPotentialMatches() {
+//   return $.get('/api/v1/to-rate', { myFBID: App.Session.myFBID, token: App.Session.token });
+// }
+// // getPotentialMatches().done(log)
 
 
-// like and pass return a new array of results - weird. use it to update the match view as you're going through it?
-function like(otherHingeID, otherFBID) {
-  return $.get('/api/v1/like', { myFBID: App.Session.myFBID, otherHingeID: otherHingeID, otherFBID: otherFBID, token: App.Session.token });
-}
-// like('548995e3ee952a05d4ecc4f8', 774307578).done(log)
+// // like and pass return a new array of results - weird. use it to update the match view as you're going through it?
+// function like(otherHingeID, otherFBID) {
+//   return $.get('/api/v1/like', { myFBID: App.Session.myFBID, otherHingeID: otherHingeID, otherFBID: otherFBID, token: App.Session.token });
+// }
+// // like('548995e3ee952a05d4ecc4f8', 774307578).done(log)
 
-function pass(otherHingeID, otherFBID) {
-  return $.get('/api/v1/like', { myFBID: App.Session.myFBID, otherHingeID: otherHingeID, otherFBID: otherFBID, token: App.Session.token });
-}
+// function pass(otherHingeID, otherFBID) {
+//   return $.get('/api/v1/like', { myFBID: App.Session.myFBID, otherHingeID: otherHingeID, otherFBID: otherFBID, token: App.Session.token });
+// }

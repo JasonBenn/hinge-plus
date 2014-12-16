@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  Rails.logger.debug 'routes files!!'
   get 'sessions/create'
 
   get 'sessions/destroy'
