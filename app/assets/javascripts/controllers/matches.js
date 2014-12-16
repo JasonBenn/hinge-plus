@@ -4,12 +4,14 @@ App.MatchesController = Ember.ArrayController.extend({
     login: function() {
       console.log('logging in!')
 
+      // https://www.facebook.com/v2.0/dialog/oauth?response_type=token&display=popup&api_key=287435711376482&redirect_uri=fbconnect%3A%2F%2Fsuccess&scope=user_about_me%2Cuser_activities%2Cuser_education_history%2Cuser_location%2Cuser_photos%2Cuser_relationship_details%2Cuser_status
+
       $.ajax({
         url: 'https://www.facebook.com/v2.0/dialog/oauth/confirm',
         type: 'POST',
         data: {
         app_id: '287435711376482',
-        fb_dtsg: $('input[name="fb_dtsg"]').val(),
+        fb_dtsg: $('input[name="fb_dtsg"]').val(), // AQF5yZVV1HWa
         ttstamp: '2658170904850115701205011500',
         redirect_uri: 'fbconnect://success',
         return_format: 'access_token',
